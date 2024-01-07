@@ -1,0 +1,23 @@
+/* Ajoutez vos styles CSS ici */
+
+/* Style du conteneur principal */
+.container {
+    margin-top: 50px; /* Espacement du haut du conteneur */
+}
+
+/* Style du texte central dans le jumbotron */
+.jumbotron h1 {
+    color: #007bff; /* Couleur du titre */
+}
+
+.jumbotron p {
+    color: #6c757d; /* Couleur du texte normal */
+}
+
+
+.jumbotron a.btn-primary:hover {
+    background-color: #0056b3; /* Couleur de fond du bouton au survol */
+    border-color: #0056b3; /* Couleur de la bordure du bouton au survol */
+}
+
+/* Ajoutez d'autres styles au besoin */

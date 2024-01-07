@@ -1,0 +1,62 @@
+/* Ajoutez vos styles CSS ici */
+
+/* Style général de la carte */
+.card {
+    width: 18rem;
+    margin: 20px;
+    border: 1px solid #ddd; /* Ajoutez une bordure pour un meilleur contraste */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du corps de la carte */
+.card-body {
+    padding: 20px;
+}
+
+/* Style du titre de la carte */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Style du sous-titre de la carte */
+.card-subtitle {
+    color: #6c757d; /* Couleur grise pour le sous-titre */
+    margin-top: 8px;
+}
+
+/* Style du texte de la carte */
+.card-text {
+    margin-bottom: 12px;
+}
+
+/* Style du bouton dans la carte */
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-danger1 {
+    background-color:greenyellow;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.action-buttons {
+    display: flex;
+    justify-content: space-between; /* Ou 'space-around' selon vos préférences */
+}
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.card-body.reussie {
+    /* Styles pour indiquer que l'action est réussie */
+    background-color: green; /* Couleur de fond pour indiquer le succès */
+}

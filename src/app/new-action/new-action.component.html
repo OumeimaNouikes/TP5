@@ -1,0 +1,32 @@
+<div>
+    <h2>Ajouter une nouvelle action </h2>
+    <form [formGroup]="actionForm" >
+           <div class="form-group">
+            <label for="nom">Nom Action</label>
+            <input id="nom" type="text" formControlName="nom">
+           </div>
+           <div class="form-group">
+            <label for="objectif">Objectif</label>
+            <input id="objectif" type="text" formControlName="objectif">
+           </div>
+           <div class="form-group">
+            <label for="responsable">Nom Reponsable</label>
+            <input id="responsable" type="text" formControlName="responsable">
+          </div>
+         
+           <div class="form-group">
+            <label for="nombreDePersonnes">Nombre de personnes</label>
+            <input id="nombreDePersonnes" type="number" formControlName="nombreDePersonnes">
+           </div>
+           <div class="form-group">
+            <label for="inscriDate">Date de creation</label>
+            <input id="inscriDate" type="text" formControlName="inscriDate">
+           </div>
+           <div class="action-buttons">
+            <button type="submit" (click)="onSubmitForm()">Soumettre</button>
+
+           </div>
+    </form>
+</div>
+
+

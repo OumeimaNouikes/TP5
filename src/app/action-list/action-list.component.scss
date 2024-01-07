@@ -1,0 +1,5 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet le passage à la ligne si l'espace est insuffisant */
+    justify-content: space-between; /* Ajustez la justification selon vos préférences */
+}

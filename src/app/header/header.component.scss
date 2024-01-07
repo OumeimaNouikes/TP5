@@ -1,0 +1,42 @@
+/* Ajoutez vos styles CSS ici */
+
+/* Style de la barre de navigation */
+.navbar {
+    background-color: #343a40; /* Couleur de fond de la barre de navigation */
+}
+
+/* Style de la marque de la barre de navigation (le texte du logo) */
+.navbar-brand {
+    color: #ffffff; /* Couleur du texte de la marque */
+    font-weight: bold; /* Gras pour la marque */
+}
+
+/* Style du lien de navigation normal */
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff; /* Couleur du texte des liens de navigation */
+}
+
+/* Style du lien de navigation au survol */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f8f9fa; /* Couleur du texte au survol */
+}
+
+/* Style du bouton bascule (le bouton de menu déroulant pour les petits écrans) */
+.navbar-toggler-icon {
+    background-color: #ffffff; /* Couleur de l'icône du bouton bascule */
+}
+
+/* Style du bouton bascule au survol */
+.navbar-toggler:hover .navbar-toggler-icon {
+    background-color: #f8f9fa; /* Couleur de l'icône du bouton bascule au survol */
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px; 
+}

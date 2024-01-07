@@ -1,0 +1,14 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-body" [ngClass]="{'reussie': marqueReussie}">
+      <h5 class="card-title">Nom Action:{{ action.nom }}</h5>
+      <h4 class="card-subtitle mb-2 text-muted">Objectif Action:{{ action.objectif }}</h4>
+      <p class="card-text">Nombre de personnes :{{ action.nombreDePersonnes }}</p>
+      <p class="card-text">Date de creation:{{ action.inscriDate }}</p> 
+      <p class="card-text">Nom reponsable:{{ action.responsable}}</p>
+      <div class="action-buttons">
+        <button class="btn btn-danger" (click)="deleteAction()">Supprimer</button>
+        <button class="btn btn-danger1" (click)="marquerReussie()">Marquer comme réussie</button>
+    </div>
+      
+    </div>
+  </div>
